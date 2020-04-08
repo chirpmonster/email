@@ -1,0 +1,27 @@
+body{
+    font-family: Arial;
+    font-size: 14px;
+}
+.main{
+    display: block;
+    margin: 100px 500px;
+}
+.text{
+    height: 30px;
+    width: 160px;
+    padding: 6px;
+}
+.mail{
+    width: 160px;
+    position: absolute;
+    background-color: white;
+    color: grey;
+    border: 1px solid grey;
+}
+.mail div{
+    cursor: pointer;
+    padding: 5px 8px;
+}
+.mail div:hover{
+    background-color: #ffc5cf;
+}
