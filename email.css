@@ -8,11 +8,11 @@ body{
 }
 .text{
     height: 30px;
-    width: 160px;
+    width: 200px;
     padding: 6px;
 }
 .mail{
-    width: 160px;
+    width: 200px;
     position: absolute;
     background-color: white;
     color: grey;
@@ -21,6 +21,7 @@ body{
 .mail div{
     cursor: pointer;
     padding: 5px 8px;
+    user-select:none;
 }
 .mail div:hover{
     background-color: #ffc5cf;
