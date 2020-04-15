@@ -7,7 +7,6 @@ new Vue({
     },
     watch: {
         text(val) {
-            $(".mail").fadeIn(100);
             if (this.text.lastIndexOf("@") === -1)
                 this.input = this.text;
             else
@@ -30,6 +29,12 @@ new Vue({
         },
         click126: function () {
             this.text = this.input + "@126.com";
+            $(".mail").fadeOut(100);
+        },
+        enter:function () {
+            $(".mail").fadeIn(100);
+        },
+        leave:function () {
             $(".mail").fadeOut(100);
         }
     }

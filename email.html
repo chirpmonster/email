@@ -15,7 +15,7 @@
 <body>
 <div class="main">
     <div>
-        <input class="text" type="text" v-model="text" placeholder="请输入你的Email">
+        <input class="text" type="text" v-model="text" @focus="enter" @blur="leave" placeholder="请输入你的Email">
         <div class="mail">
             <div @click="clickqq">{{input}}@qq.com</div>
             <div @click="click163">{{input}}@163.com</div>
