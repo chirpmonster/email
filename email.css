@@ -17,6 +17,7 @@ body{
     background-color: white;
     color: grey;
     border: 1px solid grey;
+    display:none;
 }
 .mail div{
     cursor: pointer;
@@ -25,4 +26,7 @@ body{
 }
 .mail div:hover{
     background-color: #ffc5cf;
+}
+.under{
+    width: 200px;
 }
